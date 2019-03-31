@@ -1,0 +1,40 @@
+{% if page.image.feature %}
+
+{% include head.html %}
+
+<section class="article">
+
+  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>{{ page.title }}</h1>
+            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+
+          </hgroup>
+        </header>
+
+<div class="galleryWrap">
+  {% assign ordered_artwork = site.artwork | sort:"index" %}
+  {% for image in ordered_artwork %}
+    <div class="pictureBox">
+      <div class="innerBox">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}"/></li>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+      </article>
+    </section>
+</div>
+
+{% include footer.html %}
