@@ -374,7 +374,7 @@ header.site-header nav {
             display: block;
             float: none;
             font-size: $fs3;
-            margin-bottom: $lh*20;
+            margin-bottom: $lh*2;
             position: relative;
             
             a {
@@ -586,10 +586,10 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: $black;
+    background: transparent;
     height: $footerHeight;
     font-size: $fsp;
-    color: $white;
+    color: $black;
     position: relative;
     margin-top: 20px;
         
@@ -610,9 +610,9 @@ footer {
         bottom: 8px;
         font-family: $sans;
         text-transform: uppercase;
-        color: transparentize($white, .9);
+        color: transparentize($black, .9);
         a {
-            color: transparentize($white, .7);
+            color: transparentize($black, .7);
         }
     }
     
@@ -638,7 +638,7 @@ footer {
                 font-style: italic;
                 a {
                     &:hover {
-                        color: $white;
+                        color: $black;
                     }
                 }
             }
@@ -861,27 +861,30 @@ footer {
 }
 
 .galleryWrap
-{
+{   
     overflow: hidden;
     margin: 10px;
-    margin-bottom: 40px;
 }
 .pictureBox
-{
+{   
     float: left;
     position: relative;
-    max-width: 40%;
-    min-width: 30%;
-    margin: 10px;
+    width: 33%;
+    padding-bottom: 46%;
 }
-
+.innerBox
+{
+    position: absolute;
+    left: 17px;
+    right: 17px;
+    top: 17px;
+    bottom: 17px;
+    overflow: hidden;
+}
 .innerBox img 
 {
     width: 100%;
-    padding: 0;
-    margin: 0;
 }
-
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
 

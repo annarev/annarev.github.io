@@ -21,15 +21,17 @@ Goats near Sunnyvale section of Bay Trail are eating a delicious meal to prevent
  
 ## Steven's Creek Trail
 
-Steven's Creek Trail is very popular for commuting, jogging, as well as walking between different parts of Mountain View. This trail receives most traffic among all trails on this list. To my disappointment, I just realized that I hardly have any photos of the trail even though I thoroughly enjoy the shrubs and flowers growing along its sides. I am including a photo of Steven's Creek trail section near Creekside park, but will try to get a better photo and update this post.
+As the name suggests, this trail runs along a creek. If you look at the water, you can frequently spot an egret or a family of ducks. Egrets nest along a segment of nearby Shorebird Way that closes for a few months every year to create a safe environment for these magestic birds. Steven's Creek Trail also receives most traffic among all trails on this list due to its convenient location near urban areas.
 
- ![Cat near Steven's Creek trail]({{ site.url }}/images/cat-stevens-creek.jpg)
+ ![Steven's Creek trail]({{ site.url }}/images/stevens-creek.jpg)
+ ![Egret near Steven's Creek]({{ site.url }}/images/egret-stevens-creek.jpg)
  
 ## Los Altos - Palo Alto bike path
 
-This trail connects Barron Park region of Palo Alto to north of Los Altos. My favourite part has mature trees overhanging the trail and thereby creating a green tunnel.
+This trail connects Barron Park region of Palo Alto to north of Los Altos. My favourite part has mature oak trees overhanging the trail and thereby creating a green tunnel.
 
  ![LA-PA trail]({{ site.url }}/images/la-pa-trail.jpg)
+ ![LA-PA trail]({{ site.url }}/images/la-pa-trail2.jpg)
 
 ## Permanente Creek Trail
 
